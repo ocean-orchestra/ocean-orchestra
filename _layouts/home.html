@@ -3,91 +3,44 @@ layout: base
 ---
 
 <div class="home">
-  {%- if page.title -%}
-  <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
 
-  {{ content }}
 
-  <h2>Coming Events</h2>
-  {% assign sorted_events = site.events | sort: 'start' | reverse %}
-  <ul>
-    {%- for event in sorted_events -%}
-    {%- if event.show_on_frontpage -%}
-    <li><a href="{{ event.link }}" target="_blank">{{ event.start }} {{ event.start_hour}} {{ event.venue }}</a>
-    </li>
+  <!-- <div class="gradient-to-white"></div> -->
+  <div class="front-page-container">
+    {% assign pages = site.pages %}
+
+    {%- for page in site.pages -%}
+    {%- if page.title and page.title == "Home" -%}
+    {{page.content}}
+    
+    <div class="front-cover" style="background-image: url({{ page.cover }})" ></div>
     {%- endif -%}
-  </ul>
-  {%- endfor -%}
-
-
-  <h2>News</h2>
-  {% assign sorted_news = site.news | sort: 'start' | reverse %}
-  <ul>
-    {%- for new in sorted_news -%}
-    <li>{{ new.content }}
-    </li>
-  </ul>
-  {%- endfor -%}
-
-
-
-
-
-
-  {% assign news = site.news %}
-  {% assign events = site.events %}
-
-
-
-  {%- if posts.size > 0 -%}
-  {%- if page.list_title -%}
-  <h2 class="post-list-heading">{{ page.list_title }}</h2>
-  {%- endif -%}
-  <ul class="post-list">
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {% assign sorted = site.events | sort: 'start' | reverse %}
-
-    {%- for post in posts -%}
-    <li>
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      {%- if site.show_excerpts -%}
-      {{ post.excerpt }}
-      {%- endif -%}
-    </li>
     {%- endfor -%}
-  </ul>
 
-  {% if site.paginate %}
-  <div class="pager">
-    <ul class="pagination">
-      {%- if paginator.previous_page %}
-      <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page
-          }}</a></li>
-      {%- else %}
-      <li>
-        <div class="pager-edge">•</div>
+    <h2>Coming Events</h2>
+    {% assign sorted_events = site.events | sort: 'start' %}
+    <ul>
+      {%- for event in sorted_events -%}
+      {%- if event.show_on_frontpage -%}
+      <li><a href="{{ event.link }}" target="_blank">{{ event.start }}, {{ event.starthour }} at {{ event.venue }}</a>
       </li>
-      {%- endif %}
-      <li>
-        <div class="current-page">{{ paginator.page }}</div>
-      </li>
-      {%- if paginator.next_page %}
-      <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-      {%- else %}
-      <li>
-        <div class="pager-edge">•</div>
-      </li>
-      {%- endif %}
+      {%- endif -%}
+    {%- endfor -%}
     </ul>
-  </div>
-  {%- endif %}
 
-  {%- endif -%}
+
+    <h2>News</h2>
+    {% assign sorted_news = site.news | sort: 'start' | reverse %}
+    <ul>
+      {%- for new in sorted_news -%}
+      <li>{{ new.content }}</li>
+    {%- endfor -%}
+    </ul>
+
+
+
+
+
+  </div>
 
 </div>
