@@ -1,5 +1,6 @@
 ---
 layout: page
+cover: /media/ocean.jpg
 title: About
 ---
 Connecting to the world, to life as a social being, and to nature, as well as finding the commitment, the will, and not least the courage to surrender yourself to this connection. This is the impetus behind the music of Ocean Orchestra. This wish for cohesion permeates the compositions, arrangements, as well as the interplay between the participants.
