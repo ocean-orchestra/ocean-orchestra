@@ -11,3 +11,28 @@ content:
       - { name: cover, label: Cover image, type: image }
       - { name: title, label: Title, type: string, required: true }
       - { name: body, label: Body, type: rich-text }
+  - name: events
+    label: Events
+    type: collection
+    path: _events
+    view:
+      fields: [ date, venue ]
+    fields:
+      - { name: layout, type: string, hidden: true, default: event }
+      - { name: start, label: Start Date, type: date, required: true, options: {format: yyyy-MM-dd} }
+      - { name: starthour, label: Start hour, type: number, required: true, options: {min: 0, max:23} }
+      - { name: venue, label: Venue, type: string, required: true }
+      - { name: link, label: Link, type: string, required: false }
+      - { name: cover, label: Cover image, type: image, required: false }
+      - { name: title, label: Title, type: string, required: false }
+      - { name: body, label: Body, type: rich-text }
+  - name: news
+    label: News
+    type: collection
+    path: _news
+    view:
+      fields: [ date ]
+    fields:
+      - { name: layout, type: string, hidden: true, default: news }
+      - { name: start, label: Date, type: date, required: true, options: {format: yyyy-MM-dd} }
+      - { name: body, label: Body, type: rich-text }

@@ -90,18 +90,3 @@ collections:
     collections_dir: _events
     output: true
     permalink: /:path
-
-  artists:
-    collections_dir: _artists
-    output: true
-    permalink: /:path
-
-  releases:
-    collections_dir: _releases
-    output: true
-    permalink: /:path
-
-  merchs:
-    collections_dir: _merchs
-    output: true
-    permalink: /:path
