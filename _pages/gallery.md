@@ -2,8 +2,8 @@
 layout: page
 title: Gallery
 ---
-![](/media/zach-reiner-jekyll-island-5.jpg)
+![](/media/image00003%20-%20Kopi.jpeg)
 
-![](/media/zach-reiner-jekyll-island-5.jpg)
+![](/media/RRR_8520-Edit%20-%20Kopi.jpg)
 
-![](/media/zach-reiner-jekyll-island-1.jpg)
+![](/media/RRR_8578-Edit-2%20-%20Kopi.jpg)
