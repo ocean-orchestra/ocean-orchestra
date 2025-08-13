@@ -1,14 +1,14 @@
-title: Your awesome title
+title: Ocean Orchestra
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Ocean Orchestra
+  email: contact@oceanorchestra.dark
+  phone: (+45) 51905846
+
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  Welcome to the homepage of Ocean Orchestra
 
 # Build settings
 
@@ -71,3 +71,37 @@ minima:
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
 
+
+
+include: ['_pages', '_events', '_artists', '_merchs', '_releases']
+
+collections:
+  pages:
+    collections_dir: _pages
+    output: true
+    permalink: /:path
+
+  news:
+    collections_dir: _news
+    output: true
+    permalink: /:path
+
+  events:
+    collections_dir: _events
+    output: true
+    permalink: /:path
+
+  artists:
+    collections_dir: _artists
+    output: true
+    permalink: /:path
+
+  releases:
+    collections_dir: _releases
+    output: true
+    permalink: /:path
+
+  merchs:
+    collections_dir: _merchs
+    output: true
+    permalink: /:path

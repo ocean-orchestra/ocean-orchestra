@@ -1,0 +1,13 @@
+media: media
+content:
+  - name: pages
+    label: Pages
+    type: collection
+    path: _pages
+    view:
+      fields: [ title ]
+    fields:
+      - { name: layout, type: string, hidden: true, default: page }
+      - { name: cover, label: Cover image, type: image }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: body, label: Body, type: rich-text }
