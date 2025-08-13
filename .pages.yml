@@ -19,6 +19,7 @@ content:
       fields: [ date, venue ]
     fields:
       - { name: layout, type: string, hidden: true, default: event }
+      - { name: show_on_frontpage, label: Vis_paa_forside, type: boolean, default: true }
       - { name: start, label: Start Date, type: date, required: true, options: {format: yyyy-MM-dd} }
       - { name: starthour, label: Start hour, type: number, required: true, options: {min: 0, max:23} }
       - { name: venue, label: Venue, type: string, required: true }
