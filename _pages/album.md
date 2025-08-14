@@ -20,4 +20,4 @@ Sound Station (Gl. Kongevej 94, Copenhagen)
 
 The record can also be ordered by mail. Send a request to [contact@oceanorchestra.dk](mailto:contact@oceanorchestra.dk). The price is 200 DKK/27 Euro + shipping
 
-![](/media/o_o_digi_cover_3600_01%20-%20Kopi.tif)
+![](/media/o_o_digi_cover_3600_01%20-%20Kopi.tif)![](/media/o_o_digi_cover_3600_01%20-%20Kopi.tif)
