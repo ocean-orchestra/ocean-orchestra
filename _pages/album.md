@@ -6,13 +6,19 @@ The debut album _¡Beleza!_ is the first record of Ocean Orchestra. It was relea
 
 The vinyl print of the record can be found for sale in the following shops:
 
+# FYN
+
+Record Pusher (Overgade 12, Odense)
+
+Vinylen (Møllergade 34, Svendborg)
+
+# København
+
 Accord (Vesterbrogade 63, Copenhagen)
 
 Amager Records (Amagerbrogade 135, Copenhagen)
 
 Proton Records (Griffenfeldsgade 50, Copenhagen)
-
-Record Pusher (Overgade 12, Odense)
 
 Route 66 (Fælledvej 3, Copenhagen)
 
@@ -21,5 +27,7 @@ Sort Kaffe og Vinyl (Skydebanegade 4, Copenhagen)
 Sound Station (Gl. Kongevej 94, Copenhagen)
 
 The record can also be ordered by mail. Send a request to [contact@oceanorchestra.dk](mailto:contact@oceanorchestra.dk). The price is 200 DKK/27 Euro + shipping
+
+The record can also be borrowed through the Danish libraries. [Follow this link to order](https://bibliotek.dk/materiale/-beleza-_ocean-orchestra/work-of%3A870970-basis%3A139621328?type=musik+%28grammofonplade%29&tid=ZeiB917556020208916809861)
 
 ![](/media/o_o_digi_cover_3600_01%20-%20Kopi.tif)![](/media/o_o_digi_cover_3600_01%20-%20Kopi.tif)
