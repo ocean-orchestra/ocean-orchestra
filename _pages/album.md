@@ -2,7 +2,7 @@
 layout: page
 title: Album
 ---
-The debut album _¡Beleza!_ is the first record of Ocean Orchestra. It was released in October 2024 and can be heard on all streaming platforms. Here's a few links for streaming: [Apple Music](https://music.apple.com/us/album/beleza/1750691431) - [Tidal](https://tidal.com/browse/artist/5822460?u) - [Spotify](https://open.spotify.com/album/7A27IT0V5p85C3orWxp5Sn?si=YViaemy9SDqbitJqbpBhgw)
+The album _¡Beleza!_ is the first record of Ocean Orchestra. It was released in October 2024 and can be heard on all streaming platforms. Here's a few links for streaming: [Apple Music](https://music.apple.com/us/album/beleza/1750691431) - [Tidal](https://tidal.com/browse/artist/5822460?u) - [Spotify](https://open.spotify.com/album/7A27IT0V5p85C3orWxp5Sn?si=YViaemy9SDqbitJqbpBhgw)
 
 The vinyl print of the record can be ordered by mail. Send a request to [contact@oceanorchestra.dk](mailto:contact@oceanorchestra.dk). The price is 200 DKK/27 Euro + shipping
 
