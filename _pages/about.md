@@ -8,6 +8,6 @@ The project consists of musicians from the jazz and world music scene in Denmark
 
 Thus, the diagonal cross section from Olinda in the Southern hemisphere to Denmark in the Northern draws the line of inspiration across the Atlantic Ocean on which the debut album rests, and which gives the compositions a mix of wildness and melancholy.
 
-Solid pulse awareness runs as an undercurrent of oceanic swells, flamenco and samba in the interplay between the horn section (Mads Egetoft on tenor sax, Fermo Mel on alto sax and Alessandro Garau on trumpet), the rhythm section (David Besiakov on drums, Michael Finding on congas and Juan Pino on percussion) and the strings (Rune Fog-Nielsen on bass, Lars Emil Jørgensen on guitar).
+Solid pulse awareness runs as an undercurrent of oceanic swells, flamenco and samba in the interplay between the horn section (Mads Egetoft on tenor sax, Fermo Mel on alto sax and Alessandro Garau on trumpet), the rhythm section (David Besiakov on drums and Michael Finding on congas) and the strings (Rune Fog-Nielsen on bass, Lars Emil Jørgensen on guitar).
 
 The intention of Ocean Orchestra is to create concerts and recordings which awaken feelings of attentiveness, communion and meaningfulness in the audience.
